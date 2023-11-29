@@ -10,7 +10,7 @@
         $password = $_POST['password'];
         $new_password = md5($password.$username);
 
-        $result = $user->getUser($username,$new_password);
+        $result = $user->getUser($username,$new_password); //nemtom miért, de error, és jó így is
         if(!$result){
             echo '<div class="alert alert-danger">Username or Password is incorrect! Please try again. </div>';
         }else{

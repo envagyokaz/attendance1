@@ -8,14 +8,7 @@
     $results = $crud->getSpecialties();
 
 ?>
-    <!-- 
-        - First name
-        - Last Name
-        - Date of Birth (Use DatePicker)
-        - Speciality (Database Admin, SOftware Developer, Web Administrator, Other)
-        - Email Address
-        - Contact Number
-     -->
+   
     <h1 class="text-center">Registration for IT Conference </h1>
 
     <form method="post" action="success.php" enctype="multipart/form-data">
@@ -60,9 +53,6 @@
         
         <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
     </form>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <?php require_once 'includes/footer.php'; ?>

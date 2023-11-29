@@ -33,7 +33,6 @@
         <?php }?>
     </table>
 
-<br>
-<br>
+
 <br>
 <?php require_once 'includes/footer.php'; ?>
